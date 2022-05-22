@@ -6,7 +6,11 @@
 }
 
 
+<<<<<<< HEAD
 .container {
+=======
+.container{
+>>>>>>> a4a9bf56e5656a04c7a709997aa04eb798dc250f
     padding: 30px 10%;
 }
 
@@ -62,8 +66,13 @@ header {
 }
 
 .cta:hover {
+<<<<<<< HEAD
     background: #263238;
     color: white;
+=======
+    background:#263238;
+    color:white;
+>>>>>>> a4a9bf56e5656a04c7a709997aa04eb798dc250f
     transition: 0.3s;
 
 }
@@ -98,6 +107,7 @@ button {
 
 }
 
+<<<<<<< HEAD
 button:hover {
     background: white;
     color: black;
@@ -108,20 +118,36 @@ button:hover {
 
 .button__text {
     color: #000000;
+=======
+button:hover{
+        background:white;
+        color:black;
+        box-shadow: inset 0 0 0 3px #090d0f;
+        transition: 0.3s;
+
+}
+
+.button__text{
+color: #000000;
+>>>>>>> a4a9bf56e5656a04c7a709997aa04eb798dc250f
 }
 
 .button__text {
     font-size: 26px;
     text-decoration: none;
     color: white;
+<<<<<<< HEAD
 }
 
 .img {
     margin: 0 129px;
+=======
+>>>>>>> a4a9bf56e5656a04c7a709997aa04eb798dc250f
 }
 
-.img1 {
+.img1{
 
+<<<<<<< HEAD
     margin-top: 100px;
     margin-left: 110px;
 }
@@ -187,6 +213,59 @@ button:hover {
 .card__3 {}
 
 .card__4 {}
+=======
+}
+
+
+.img2{
+margin-left: 880px;
+
+}
+.skl{
+  text-align: center;
+margin-top: 500px;
+  font-size: 48px;
+
+}
+.card{
+}
+
+
+.card__1 {
+  border-radius: 10px;
+  background: #F5F5F5;
+  position: absolute;
+  width: 435px;
+  height: 894px;
+  left: 127px; 
+}
+.h1__{
+  font-size: 30px;
+   margin: 45px;
+}
+.text__1{
+  margin: 45px;
+  color: #8F95A5;
+}
+.btn__1 a{
+    position: absolute;
+    background: #263238;
+    border-radius: 5px;
+    padding: 17px 64px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin: 36px;
+}
+
+
+.card__2 {
+}
+.card__3 {
+}
+.card__4 {
+}
+>>>>>>> a4a9bf56e5656a04c7a709997aa04eb798dc250f
 
 
 
@@ -200,6 +279,7 @@ button:hover {
 /* Mobile Nav */
 
 .menu {
+<<<<<<< HEAD
     display: none;
 
 }
@@ -214,53 +294,68 @@ button:hover {
     background-color: #f1f1f7;
     overflow-x: hidden;
     transition: width 0.5s ease 0s;
+=======
+  display: none;
+  
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #f1f1f7;
+  overflow-x: hidden;
+  transition: width 0.5s ease 0s;
+>>>>>>> a4a9bf56e5656a04c7a709997aa04eb798dc250f
 }
 
 .overlay--active {
-    width: 100%;
+  width: 100%;
 }
 
 .overlay__content {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .overlay a {
-    padding: 15px;
-    font-size: 36px;
-    display: block;
-    transition: color 0.3s ease 0s;
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: color 0.3s ease 0s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-    color: #0088a9;
+  color: #0088a9;
 }
-
 .overlay .close {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    color: #edf0f1;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
 }
 
 @media screen and (max-height: 450px) {
-    .overlay a {
-        font-size: 20px;
-    }
-
-    .overlay .close {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 
 @media only screen and (max-width: 830px) {
+<<<<<<< HEAD
 
     .nav__links,
     .cta {
@@ -304,3 +399,20 @@ button:hover {
 }
 
 @media only screen and (max-width: 320px) {}
+=======
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+}
+  
+@media  only screen and (max-width: 830px){
+  .img2{
+    max-width: 40%;
+
+  }
+}
+>>>>>>> a4a9bf56e5656a04c7a709997aa04eb798dc250f
